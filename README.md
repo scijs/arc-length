@@ -8,13 +8,13 @@ This module computes the arc length of a parameterized n-dimensional curve using
 
 ## Example
 
-To compute the arc length of a circle:
+To compute the circumference of a circle:
 
 ```javascript
 var arcLength = require('arc-length')
 
-arcLength([Math.cos, Math.sin], 0, Math.PI)
-//=> 3.141592653589213
+arcLength([Math.cos, Math.sin], 0, Math.PI * 2)
+//=> 6.283185307178426
 ```
 
 ## Installation

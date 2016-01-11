@@ -33,7 +33,7 @@ function createIntegrator (d) {
   text.push('if (depth >= mindepth && Math.abs(err) < tol * s2) {')
   text.push('  return s2 + err')
   text.push('} if (depth > maxdepth) {')
-  text.push('  console.log("integrate-adaptive-simpson: Warning: maximum recursion depth (" + maxdepth + ") exceeded at t = " + m + ")")')
+  text.push('  console.warn("Warning: maximum recursion depth (" + maxdepth + ") exceeded at t = " + m + ")")')
   text.push('  return s2 + err')
   text.push('} else {')
 
