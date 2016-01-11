@@ -25,7 +25,7 @@ $ npm install arc-length
 
 ## API
 
-#### `require('arc-length')(y, start, end[, tol=1e-8 [, maxdepth=10]])`
+#### `require('arc-length')(y, start, end[, tol=1e-8 [, mindepth=2, maxdepth=10]]])`
 **Arguments**:
 - **`y`**: An `Array` of functions of a single parameter which define the curve.
 - **`start`**: The lower bound of integration.

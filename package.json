@@ -1,6 +1,6 @@
 {
   "name": "arc-length",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compute the arc-length of an n-dimensional parameterized curve",
   "main": "index.js",
   "scripts": {
