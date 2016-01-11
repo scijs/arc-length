@@ -1,0 +1,31 @@
+{
+  "name": "arc-length",
+  "version": "1.0.0",
+  "description": "Compute the arc-length of an n-dimensional parameterized curve",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scijs/arc-length.git"
+  },
+  "keywords": [
+    "arc-length",
+    "curve"
+  ],
+  "author": "Ricky Reusser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scijs/arc-length/issues"
+  },
+  "homepage": "https://github.com/scijs/arc-length#readme",
+  "devDependencies": {
+    "almost-equal": "^1.0.0",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "standard": "^5.4.1"
+  },
+  "dependencies": {
+  }
+}
